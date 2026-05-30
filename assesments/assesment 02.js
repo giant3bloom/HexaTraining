@@ -127,7 +127,7 @@ db.restaurants.find({avg_order_value: {$lt: 400}})
 db.restaurants.find({rating: {$gt: 4.0, $lt: 4.7}})
 db.restaurants.find({avg_order_value: {$gte: 600}})
 
-db.restaurants.find({city: 'Hyderabad', delivery_available})
+db.restaurants.find({city: 'Hyderabad', delivery_available: true})
 db.restaurants.find({
     $or: [
         {city: 'Chennai'},
