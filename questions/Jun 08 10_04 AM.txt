@@ -1,0 +1,104 @@
+
+1. Display only employee_id and name.
+
+2. Display only name, salary and city.
+
+3. Display all columns except city.
+
+4. Display employees earning more than ₹70,000.
+
+5. Display employees earning less than ₹80,000.
+
+6. Display employees from Mumbai.
+
+7. Display employees from Bangalore.
+
+8. Display employees belonging to Data Engineering.
+
+9. Display employees belonging to AI Engineering.
+
+10. Display employees earning between ₹70,000 and ₹90,000.
+
+11. Display employees from Hyderabad earning more than ₹70,000.
+
+12. Display employees from Bangalore or Chennai.
+
+13. Display employees from Hyderabad, Mumbai and Delhi using isin().
+
+14. Display employees belonging to Data Engineering and AI Engineering.
+
+15. Sort employees by salary ascending.
+
+16. Sort employees by salary descending.
+
+17. Sort employees by name.
+
+18. Sort employees by city and then salary.
+
+19. Create a bonus column where:
+    bonus = salary * 0.10
+
+20. Create a tax column where:
+    tax = salary * 0.05
+
+21. Create an annual_salary column where:
+    annual_salary = salary * 12
+
+22. Create salary_after_bonus column where:
+    salary_after_bonus = salary + bonus
+
+23. Rename salary column to monthly_salary.
+
+24. Rename department column to team.
+
+25. Find total salary payout.
+
+26. Find average salary.
+
+27. Find maximum salary.
+
+28. Find minimum salary.
+
+29. Find total employee count.
+
+30. Count employees by department.
+
+31. Find average salary by department.
+
+32. Find maximum salary by department.
+
+33. Find minimum salary by department.
+
+34. Find total salary by department.
+
+35. Display unique departments.
+
+36. Display unique cities.
+
+37. Count unique departments.
+
+38. Display top 3 highest-paid employees.
+
+39. Display lowest-paid employee.
+
+40. Display employees whose names start with 'R'.
+
+41. Display employees whose names contain 'a'.
+
+42. Display employees working in departments containing 'Engineering'.
+
+43. Create salary_category column:
+    salary >= 85000 -> High
+    salary >= 75000 -> Medium
+    Else -> Low
+
+44. Find count of employees in each salary category.
+
+45. Generate a final report showing:
+    Employee ID
+    Name
+    Department
+    Salary
+    Bonus
+    Annual Salary
+
