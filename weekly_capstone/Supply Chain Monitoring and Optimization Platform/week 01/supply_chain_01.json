@@ -1,0 +1,77 @@
+use ShipmentManagement;
+
+db.createCollection("shipment_logs")
+
+db.shipment_logs.insertMany([
+{
+    shipment_id: "SHIP001",
+    order_id: 1,
+    supplier: "ABC Suppliers",
+    status: "Dispatched",
+    source: "Chennai",
+    destination: "Bangalore",
+    shipment_date: new Date("2025-01-10"),
+    expected_delivery: new Date("2025-01-12")
+},
+{
+    shipment_id: "SHIP002",
+    order_id: 2,
+    supplier: "Global Traders",
+    status: "In Transit",
+    source: "Coimbatore",
+    destination: "Hyderabad",
+    shipment_date: new Date("2025-01-11"),
+    expected_delivery: new Date("2025-01-14")
+},
+{
+    shipment_id: "SHIP003",
+    order_id: 3,
+    supplier: "ABC Suppliers",
+    status: "Delivered",
+    source: "Chennai",
+    destination: "Mumbai",
+    shipment_date: new Date("2025-01-08"),
+    expected_delivery: new Date("2025-01-10")
+}
+])
+
+db.shipment_logs.insertOne({
+    shipment_id: "SHIP004",
+    order_id: 4,
+    supplier: "ABC Suppliers",
+    status: "Pending"
+})
+
+db.shipment_logs.find()
+
+db.shipment_logs.find({
+    status: "Delivered"
+})
+
+db.shipment_logs.updateOne(
+    { shipment_id: "SHIP002" },
+    { $set: { status: "Delivered" } }
+)
+
+db.shipment_logs.deleteOne({
+    shipment_id: "SHIP004"
+})
+
+db.shipment_logs.createIndex(
+    { shipment_id: 1 }
+)
+
+db.shipment_logs.createIndex(
+    {
+        status: 1,
+        shipment_date: -1
+    }
+)
+
+db.shipment_logs.createIndex(
+    {
+        supplier: "text",
+        destination: "text"
+    }
+)
+
