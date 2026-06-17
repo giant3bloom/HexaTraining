@@ -1,0 +1,6 @@
+order_id,customer_id,customer_name,order_date,delivery_date,delivery_issue
+101,1,Rahul,2026-06-01,2026-06-05,Late Delivery
+102,2,Priya,2026-06-02,2026-06-03,None
+103,1,Rahul,2026-06-04,2026-06-10,Damaged Package
+104,3,Arun,2026-06-05,,Late Delivery
+105,2,Priya,2026-06-06,2026-06-08,None

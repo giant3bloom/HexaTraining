@@ -1,0 +1,6 @@
+order_id,customer_id,customer_name,order_date,delivery_date,delivery_issue,delay_days,delayed
+101,1,Rahul,2026-06-01,2026-06-05 00:00:00.000000,Late Delivery,4,1
+102,2,Priya,2026-06-02,2026-06-03 00:00:00.000000,Unknown,1,0
+103,1,Rahul,2026-06-04,2026-06-10 00:00:00.000000,Damaged Package,6,1
+104,3,Arun,2026-06-05,2026-06-17 16:45:25.018610,Late Delivery,12,1
+105,2,Priya,2026-06-06,2026-06-08 00:00:00.000000,Unknown,2,0

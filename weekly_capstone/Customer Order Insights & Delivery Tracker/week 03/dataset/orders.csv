@@ -1,0 +1,7 @@
+order_id,customer_id,product_name,delay_days
+101,1,Laptop,2
+102,2,Mobile,0
+103,1,Keyboard,5
+104,3,Mouse,3
+105,4,Monitor,0
+106,2,Headphones,4

@@ -1,0 +1,27 @@
+use customer_order_tracker
+
+db.feedback.insertMany([
+    {
+        customer_id: 1,
+        customer_name: "Rahul",
+        feedback: "Delivery was delayed but product quality is excellent."
+    },
+    {
+        customer_id: 2,
+        customer_name: "Priya",
+        feedback: "Fast delivery and good packaging."
+    },
+    {
+        customer_id: 1,
+        customer_name: "Rahul",
+        feedback: "Customer support responded quickly."
+    }
+])
+
+db.feedback.createIndex(
+    { customer_id: 1 }
+)
+
+db.feedback.find(
+    { customer_id: 1 }
+)
