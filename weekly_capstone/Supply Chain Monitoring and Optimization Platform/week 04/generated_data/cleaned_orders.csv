@@ -1,0 +1,6 @@
+order_id,product,quantity,order_amount,delivery_status
+101,Laptop,2,120000,Delivered
+103,Tablet,3,75000,Delivered
+105,Keyboard,5,10000,Delivered
+107,Laptop,1,60000,Delivered
+109,Tablet,1,25000,Delivered

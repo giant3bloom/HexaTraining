@@ -1,0 +1,11 @@
+order_id,customer_name,product,quantity,order_amount,city,expected_date,actual_date,delivery_status,delay_days,is_delayed
+101,John,Laptop,2,120000,Chennai,2026-06-10,2026-06-12,Delivered,2,Yes
+102,Mary,Mobile,1,30000,Coimbatore,2026-06-11,2026-06-15,Delivered,4,Yes
+103,David,Tablet,3,75000,Madurai,2026-06-12,2026-06-14,Shipped,2,Yes
+104,Sarah,Monitor,2,40000,Salem,2026-06-13,2026-06-18,Delivered,5,Yes
+105,James,Keyboard,5,10000,Trichy,2026-06-14,2026-06-14,Delivered,0,No
+106,Priya,Headphones,4,20000,Erode,2026-06-15,2026-06-20,Shipped,5,Yes
+107,Arun,Laptop,1,60000,Chennai,2026-06-16,2026-06-25,Delivered,9,Yes
+108,Anita,Mobile,2,50000,Coimbatore,2026-06-17,2026-06-19,Delivered,2,Yes
+109,Rahul,Tablet,1,25000,Madurai,2026-06-18,2026-06-24,Delivered,6,Yes
+110,Sneha,Monitor,3,60000,Salem,2026-06-19,2026-06-21,Delivered,2,Yes

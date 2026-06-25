@@ -1,0 +1,11 @@
+order_id,product,quantity,order_amount,delivery_status
+101,Laptop,2,120000,Delivered
+102,Mobile,1,30000,Pending
+103,Tablet,3,75000,Delivered
+104,Monitor,2,40000,Pending
+105,Keyboard,5,10000,Delivered
+106,Headphones,4,20000,Pending
+107,Laptop,1,60000,Delivered
+108,Mobile,2,50000,Pending
+109,Tablet,1,25000,Delivered
+110,Monitor,3,60000,Pending
